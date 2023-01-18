@@ -1,10 +1,14 @@
-const NavItem = ({ href,children }) => {
+import { Link } from "react-router-dom";
 
-    return (
-    <li>
-        <a href= {href}>{children}</a>
-        </li>
-        );
-        };
-    
-    export default NavItem;
+const NavItem = ({ to,children }) => {
+
+return (
+<li className="nav-item">
+    <Link className="nav-link" to ={to}>
+        {children}
+        </Link>
+    </li>
+    );
+    };
+
+export default NavItem;

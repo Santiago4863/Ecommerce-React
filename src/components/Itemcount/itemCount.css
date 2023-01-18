@@ -1,0 +1,15 @@
+.item-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.item-count-button{
+    margin:0;
+    padding: 10px;
+    border: none;
+    font-family: "Nunito";
+    font-size: medium;
+    background-color: brown;
+}

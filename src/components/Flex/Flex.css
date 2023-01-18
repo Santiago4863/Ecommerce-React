@@ -10,16 +10,3 @@
     font-family: "Nunito";
     color: #302c29;
 }
-
-button{
-    padding: 10px;
-    border: none;
-    background-color:green ;
-    border-radius: 10px;
-    margin-left: 50%;
-    margin-top: 20px;
-    font-family: "Nunito";
-    font-size: medium;
-    margin-bottom: 1%;
-    color: #ffffff;
-}
